@@ -21,3 +21,13 @@ Skrypt automatycznie wypełni formularze na podstawie danych w pliku Excel i zat
 # Pliki
 .py: Główny plik z kodem automatu
 dane.xlsx: Przykładowy plik Excel z danymi wejściowymi (można dostosować do własnych potrzeb)
+
+# Podsumowanie działania kodu
+-Wczytuje dane z pliku Excel (login, hasło, URL oraz dane ogłoszenia).
+-Loguje się do OLX.
+Dla każdego wiersza w Excelu:
+-Otwiera stronę dodawania ogłoszenia.
+-Wprowadza tytuł, zdjęcia, opis, cenę, stan, kategorię itp.
+-Włącza opcje wysyłki.
+-Publikuje ogłoszenie i odrzuca promowanie.
+-Przechodzi do kolejnego ogłoszenia.
