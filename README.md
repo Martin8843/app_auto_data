@@ -24,10 +24,17 @@ dane.xlsx: Przykładowy plik Excel z danymi wejściowymi (można dostosować do 
 
 # Podsumowanie działania kodu
 Wczytuje dane z pliku Excel (login, hasło, URL oraz dane ogłoszenia).
+
 Loguje się do OLX.
+
 Dla każdego wiersza w Excelu:
+
 Otwiera stronę dodawania ogłoszenia.
+
 Wprowadza tytuł, zdjęcia, opis, cenę, stan, kategorię itp.
+
 Włącza opcje wysyłki.
+
 Publikuje ogłoszenie i odrzuca promowanie.
+
 Przechodzi do kolejnego ogłoszenia.
