@@ -1,40 +1,49 @@
-# Automat do wypełniania formularzy internetowych
-Opis
-Wykonany automat umożliwia automatyczne wypełnianie formularzy internetowych na podstawie danych pobranych z plików Excel. Program wykorzystuje bibliotekę Selenium do interakcji z formularzami online, wprowadzania danych oraz zatwierdzania formularzy. Celem projektu było uproszczenie i przyspieszenie procesu wprowadzania danych do formularzy internetowych, oszczędzając czas i eliminując błędy ludzkie.
+# 🤖 Automat do wypełniania formularzy internetowych
 
-# Funkcjonalności
-Pobieranie danych z plików Excel (w formacie .xlsx)
-Automatyczne wprowadzanie danych do formularzy internetowych
-Zatwierdzanie formularzy po wypełnieniu
-Użycie biblioteki Selenium do automatyzacji interakcji z przeglądarką
+## 📌 Opis
+Projekt przedstawia **automat do wypełniania formularzy internetowych** na podstawie danych z plików Excel.  
+Program wykorzystuje bibliotekę **Selenium** do interakcji z formularzami online – automatycznie wprowadza dane i zatwierdza formularze.  
 
-# Jak używać
-Upewnij się, że masz zainstalowaną bibliotekę Selenium:
+👉 Dzięki temu rozwiązaniu można **zaoszczędzić czas** oraz **zredukować błędy ludzkie** podczas pracy z dużą liczbą formularzy.
 
-pip install selenium
-Przygotuj plik Excel z danymi, które mają zostać wprowadzone do formularza.
+---
 
-Uruchom skrypt Python (automatyzacja_formularzy.py) i postępuj zgodnie z instrukcjami w kodzie.
+## 🚀 Funkcjonalności
+- 📂 Pobieranie danych z plików **Excel (.xlsx)**
+- 📝 Automatyczne uzupełnianie pól formularza
+- ✅ Zatwierdzanie formularzy po wypełnieniu
+- 🌐 Obsługa przez **Selenium** – automatyzacja w przeglądarce
 
-Skrypt automatycznie wypełni formularze na podstawie danych w pliku Excel i zatwierdzi je.
+---
 
-# Pliki
-.py: Główny plik z kodem automatu
-dane.xlsx: Przykładowy plik Excel z danymi wejściowymi (można dostosować do własnych potrzeb)
+## 🛠️ Jak używać
+1. Zainstaluj bibliotekę **Selenium**:
+   ```bash
+   pip install selenium
 
-# Podsumowanie działania kodu
-Wczytuje dane z pliku Excel (login, hasło, URL oraz dane ogłoszenia).
+2. Przygotuj plik dane.xlsx z danymi do wprowadzenia.
 
-Loguje się do OLX.
+3. Uruchom skrypt:
 
-Dla każdego wiersza w Excelu:
+4. Skrypt automatycznie:
 
-Otwiera stronę dodawania ogłoszenia.
+  wypełni formularze danymi z pliku,
 
-Wprowadza tytuł, zdjęcia, opis, cenę, stan, kategorię itp.
+  zatwierdzi je,
 
-Włącza opcje wysyłki.
+  przejdzie do kolejnego wpisu.
+  
 
-Publikuje ogłoszenie i odrzuca promowanie.
+  ## 📝 Podsumowanie działania
 
-Przechodzi do kolejnego ogłoszenia.
+Automat realizuje poniższe kroki:
+
+1. 📂 Wczytuje dane z pliku Excel (**login, hasło, URL, dane ogłoszenia**).
+2. 🔑 Loguje się do serwisu (np. **OLX**).
+3. 🔄 Dla każdego wiersza w Excelu:
+   - 🌐 otwiera stronę dodawania ogłoszenia,  
+   - 📝 uzupełnia tytuł, zdjęcia, opis, cenę, stan, kategorię itp.,  
+   - 📦 włącza opcje wysyłki,  
+   - ✅ publikuje ogłoszenie i pomija promowanie,  
+   - ⏭️ przechodzi do kolejnego wpisu.  
+
